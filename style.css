@@ -1,1 +1,75 @@
+/*CSS for LIS 590 repository on GitHub.*/
+/*Used ideas studies from CSS Zen Garden here: */
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBD4;
+    line-height: 1rem;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+
+h1 {
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    align-items: center;
+}
+
+header>nav {
+    background-color: #FFFBD4;
+}
+
+.nav-item{
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #433729;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 400;
+    border: solid;
+    border-color: #B7C68B;
+}
+
+.nav-link:hover {
+    background-color: #B7C68B;
+    color: #251E15;
+}
+
+
+.container1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+footer{
+    background-color: #B7C68B;
+    color: #251E15;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 1.5rem;
+    margin: 0rem;
+}
+
+.iSchool{
+    color: #FFFBD4;
+}
+
+.iSchool:hover{
+    color: #251E15;
+}
