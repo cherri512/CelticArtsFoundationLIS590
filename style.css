@@ -5,6 +5,7 @@ html {
     padding: 0;
     background-color: #FFFBD4;
     line-height: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -16,12 +17,27 @@ main {
     margin: 0;
     padding: 0;
     line-height: normal;
+    background-color: #FFFBD4;
+}
+
+main>a{
+    color: #251E15;
+}
+
+.pdf:hover{
+    color: #433729;
+    text-decoration: underline;
 }
 
 
 h1 {
-    font-family:'Segoe UI', Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     align-items: center;
+}
+
+header {
+    background-color: #FFFBD4;
+    color: #251E15;
 }
 
 header>nav {
@@ -29,13 +45,13 @@ header>nav {
 }
 
 .nav-item{
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .nav-link {
     color: #433729;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     border: solid;
     border-color: #B7C68B;
 }
