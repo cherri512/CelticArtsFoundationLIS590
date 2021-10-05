@@ -74,7 +74,7 @@ header>nav {
 footer{
     background-color: #B7C68B;
     color: #251E15;
-    position: fixed;
+    position: relative;
     bottom: 0%;
     right: 0%;
     left: 0%;
