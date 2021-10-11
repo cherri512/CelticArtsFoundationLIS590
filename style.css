@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+a:hover{
+    color: #B7C68B;
+}
+
 main {
     margin: 0;
     padding: 0;
@@ -62,6 +66,9 @@ header>nav {
     color: #251E15;
 }
 
+.accordion{
+    padding-bottom: 1rem;
+}
 
 .container1 {
     display:flex;
@@ -81,7 +88,6 @@ footer{
     left: 0%;
     padding: 1.5rem;
     margin: 0rem;
-    margin-top: 1.5rem;
 }
 
 .iSchool{
