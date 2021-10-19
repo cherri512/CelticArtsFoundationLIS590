@@ -83,11 +83,12 @@ footer{
     background-color: #B7C68B;
     color: #251E15;
     position: relative;
+    top: 100%;
     bottom: 0%;
     left: 0%;
     right: 0%;
-    padding: 1rem;
-    margin: 0rem;
+    padding: auto;
+    margin: auto;
 }
 
 .iSchool{
