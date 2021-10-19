@@ -87,8 +87,8 @@ footer{
     bottom: 0%;
     left: 0%;
     right: 0%;
-    padding: auto;
-    margin: auto;
+    padding: 1rem;
+    margin: 0rem;
 }
 
 .iSchool{
