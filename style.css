@@ -82,7 +82,7 @@ header>nav {
 footer{
     background-color: #B7C68B;
     color: #251E15;
-    position: absolute;
+    position: relative;
     bottom: 0%;
     width: 100%;
     padding: 1rem;
