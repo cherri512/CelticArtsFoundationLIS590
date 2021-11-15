@@ -1,69 +1,91 @@
 /*CSS for LIS 590 repository on GitHub.*/
 /*Used ideas studies from CSS Zen Garden here: */
+/*Color scheme is from: https://graphicmama.com/blog/website-color-schemes/ */
 html {
     margin: 0;
     padding: 0;
-    background-color: #F4F0CB;
-    line-height: 1rem;
+    background-color: #2e3047;
+    line-height: 2.0;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #3bba9c;
+}
+
+.accordion-links{
+    -webkit-text-stroke: .5px black;
 }
 
 a:hover{
-    color: #B7C68B;
+    color: #707793;
 }
 
 main {
     margin: 0;
     padding: 0;
-    line-height: normal;
-    background-color: #F4F0CB;
+    padding-top: 2rem;
+    line-height: 2.0;
+    background-color: #2e3047;
+    color: #2e3047;
 }
 
 main>a{
-    color: #251E15;
+    color: #3bba9c;
+}
+
+.blurb{
+    color: #3bba9c;
 }
 
 .pdf:hover{
-    color: #433729;
+    color: #3bba9c;
     text-decoration: underline;
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     align-items: center;
-    text-shadow: 1px 1px 5px lightgrey;
+    text-shadow: 1px 1px 5px #2e3047;
+    color: #3bba9c;
+    letter-spacing: 5px;
+    font-weight: 800;
 }
 
 header {
-    background-color: #F4F0CB;
-    color: #251E15;
+    background-color: #2e3047;
+    color: #707793;
 }
 
 header>nav {
-    background-color: #F4F0CB;
+    background-color: #2e3047;
+}
+
+.nav{
+    flex-direction: row-reverse;
+    flex-basis: auto;
+    flex-grow: 0;
+    justify-content: center;
+    border-bottom: solid .5px #3bba9c;
 }
 
 .nav-item{
     padding: .5rem;
+    background-color: #43455c;
 }
 
 .nav-link {
-    color: #433729;
+    color: #3bba9c;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     border: solid;
-    border-color: #B7C68B;
-    text-shadow: 1px 1px 5px lightgrey;
+    letter-spacing: 2px;
 }
 
 .nav-link:hover {
-    background-color: #B7C68B;
-    color: #251E15;
+    background-color: #3bba9c;
+    color: #2e3047;
 }
 
 .accordion{
@@ -80,21 +102,51 @@ header>nav {
 }
 
 footer{
-    background-color: #B7C68B;
-    color: #251E15;
+    background-color: #2e3047;
+    color: #3bba9c;
     position: relative;
     top: 100%;
     bottom: 0%;
     left: 0%;
     right: 0%;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0rem;
 }
 
 .iSchool{
-    color: #F4F0CB;
+    color: #707793;
+    text-shadow: #3bba9c;
 }
 
 .iSchool:hover{
-    color: #251E15;
+    color: #3bba9c;
+    text-decoration: underline;
+}
+
+.accordion-button{
+    background-color: #3bba9c;
+    color: #2e3047;
+    border-color: #707793;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.accordion-body{
+    background-color: #A8ACBD;
+    color: black;
+    font-family: 'Open sans', sans-serif;
+    text-align: justify;
+}
+
+.containerC{
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item2{
+    border-bottom: solid .5px #3bba9c;
 }
